@@ -1,5 +1,5 @@
 """
-WSGI config for myself_page project.
+WSGI config for my_page project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myself_page.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'my_page.settings')
 
 application = get_wsgi_application()
